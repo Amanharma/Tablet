@@ -1,0 +1,130 @@
+.hero{
+ 
+  height: 550px;
+}
+.main{
+  border: 1px solid red;
+  height: 1000px;
+  width: 550px;
+}
+
+.carousel-item {
+	height: 500px;
+	background-image: url(""); /* Adjust height as needed */
+  }
+  
+  .carousel-item svg {
+	height: 100%;
+	width: 100%;/* Ensure SVG background fills the height */
+  }
+
+.login{
+	margin-top: 200px;
+}
+.signup{
+	margin-top: 150px;
+}
+  
+:root {
+	--primary-color: #0078D7;  /* Electric Blue */
+	--secondary-color: #1A1A2E; /* Deep Navy Blue */
+	--accent-color: #8A2BE2;    /* Bright Purple */
+	--background-color: #0F0F1A; /* Dark Grayish Blue */
+	--text-color: #F5F5F5;      /* Soft White */
+  }
+  
+  /* Apply Colors */
+  body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+	background-color: var(--primary-color);
+	padding: 15px;
+	/* text-align: center; */
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+  /* Buttons */
+  .button {
+	background-color: var(--accent-color);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: 0.3s;
+  }
+  
+  .button:hover {
+	background-color: #6A1B9A; /* Slightly darker purple */
+  }
+  
+  /* Cards or Feature Sections */
+  .card {
+	background-color: var(--secondary-color);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/* text-align: center; */
+	margin: 20px;
+  }
+  
+  /* Links */
+  a {
+	color: var(--primary-color);
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: var(--accent-color);
+  }
+  
+
+.mainbackground{
+	
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+		background-color: #0E0E1A; 
+		color: #FFFFFF; /* Pure White */
+	
+	
+	/* text-align: center; */
+	padding: 20px;
+	font-size: 16px;
+  }
+  
+  /* Make Links More Visible */
+  .footer a {
+	color: #00AFFF;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.3s;
+  }
+  
+  .footer a:hover {
+	color: #D580FF; /* Light Purple for a glow effect */
+  }
+  
+  /* Divider to separate content */
+  .footer .divider {
+	width: 80%;
+	height: 1px;
+	background-color: #444B6E; /* Lighter Blue-Gray */
+	margin: 10px auto;
+  }
+  
